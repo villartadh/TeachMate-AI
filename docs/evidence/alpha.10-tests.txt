@@ -1,0 +1,178 @@
+TAP version 13
+# Subtest: exit zero passes
+ok 1 - exit zero passes
+  ---
+  duration_ms: 2.926977
+  type: 'test'
+  ...
+# Subtest: nonzero exit fails
+ok 2 - nonzero exit fails
+  ---
+  duration_ms: 0.837141
+  type: 'test'
+  ...
+# Subtest: missing dependency blocks without spawning
+ok 3 - missing dependency blocks without spawning
+  ---
+  duration_ms: 0.218986
+  type: 'test'
+  ...
+# Subtest: spawn errors and signals block
+ok 4 - spawn errors and signals block
+  ---
+  duration_ms: 1.068581
+  type: 'test'
+  ...
+# Subtest: provider keys cleared and output omitted
+ok 5 - provider keys cleared and output omitted
+  ---
+  duration_ms: 6.93543
+  type: 'test'
+  ...
+# Subtest: manifest checksum matches and cannot overwrite
+ok 6 - manifest checksum matches and cannot overwrite
+  ---
+  duration_ms: 3.654229
+  type: 'test'
+  ...
+# Subtest: full gate includes targeted tests and build checks
+ok 7 - full gate includes targeted tests and build checks
+  ---
+  duration_ms: 0.396917
+  type: 'test'
+  ...
+# Subtest: support archive allowlists fields and excludes arbitrary files
+ok 8 - support archive allowlists fields and excludes arbitrary files
+  ---
+  duration_ms: 3.430988
+  type: 'test'
+  ...
+# Subtest: archive rejects traversal and tampered evidence
+ok 9 - archive rejects traversal and tampered evidence
+  ---
+  duration_ms: 2.303466
+  type: 'test'
+  ...
+# Subtest: archive rejects mismatched session identity even with valid checksum
+ok 10 - archive rejects mismatched session identity even with valid checksum
+  ---
+  duration_ms: 2.597693
+  type: 'test'
+  ...
+# Subtest: monitor reports pass without claiming release readiness
+ok 11 - monitor reports pass without claiming release readiness
+  ---
+  duration_ms: 1.667629
+  type: 'test'
+  ...
+# Subtest: monitor rejects incomplete and duplicate results
+ok 12 - monitor rejects incomplete and duplicate results
+  ---
+  duration_ms: 0.132882
+  type: 'test'
+  ...
+# Subtest: monitor rejects inconsistent exit code
+ok 13 - monitor rejects inconsistent exit code
+  ---
+  duration_ms: 0.087057
+  type: 'test'
+  ...
+# Subtest: monitor distinguishes blocked and failed gates
+ok 14 - monitor distinguishes blocked and failed gates
+  ---
+  duration_ms: 0.161732
+  type: 'test'
+  ...
+# Subtest: structured events are ordered and omit raw metadata
+ok 15 - structured events are ordered and omit raw metadata
+  ---
+  duration_ms: 1.314555
+  type: 'test'
+  ...
+# Subtest: structured events preserve blocked and failed outcomes
+ok 16 - structured events preserve blocked and failed outcomes
+  ---
+  duration_ms: 0.690095
+  type: 'test'
+  ...
+# Subtest: structured events reject malformed duration and identity
+ok 17 - structured events reject malformed duration and identity
+  ---
+  duration_ms: 0.349065
+  type: 'test'
+  ...
+# Subtest: ZIP CRC32 matches standard vector
+ok 18 - ZIP CRC32 matches standard vector
+  ---
+  duration_ms: 0.126149
+  type: 'test'
+  ...
+# Subtest: native ZIP contains only approved entries with correct CRC and checksum
+ok 19 - native ZIP contains only approved entries with correct CRC and checksum
+  ---
+  duration_ms: 2.279364
+  type: 'test'
+  ...
+# Subtest: native ZIP rejects overwrite and tampering
+ok 20 - native ZIP rejects overwrite and tampering
+  ---
+  duration_ms: 1.837992
+  type: 'test'
+  ...
+# Subtest: malformed JSON returns 400
+ok 21 - malformed JSON returns 400
+  ---
+  duration_ms: 7.865412
+  type: 'test'
+  ...
+# Subtest: missing fields returns 400
+ok 22 - missing fields returns 400
+  ---
+  duration_ms: 0.759987
+  type: 'test'
+  ...
+# Subtest: valid request without key returns safe 503
+ok 23 - valid request without key returns safe 503
+  ---
+  duration_ms: 1.54485
+  type: 'test'
+  ...
+# Subtest: mock provider valid response returns structured plan
+ok 24 - mock provider valid response returns structured plan
+  ---
+  duration_ms: 26.927457
+  type: 'test'
+  ...
+# Subtest: mock provider malformed output returns 502
+ok 25 - mock provider malformed output returns 502
+  ---
+  duration_ms: 20.402776
+  type: 'test'
+  ...
+# Subtest: mock provider wrong schema returns 502
+ok 26 - mock provider wrong schema returns 502
+  ---
+  duration_ms: 16.095527
+  type: 'test'
+  ...
+# Subtest: provider exception does not leak secret
+ok 27 - provider exception does not leak secret
+  ---
+  duration_ms: 19.511904
+  type: 'test'
+  ...
+# Subtest: blank input rejected before provider
+ok 28 - blank input rejected before provider
+  ---
+  duration_ms: 22.358258
+  type: 'test'
+  ...
+1..28
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 745.993229
