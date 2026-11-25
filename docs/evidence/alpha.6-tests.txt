@@ -1,0 +1,118 @@
+TAP version 13
+# Subtest: exit zero passes
+ok 1 - exit zero passes
+  ---
+  duration_ms: 1.813408
+  type: 'test'
+  ...
+# Subtest: nonzero exit fails
+ok 2 - nonzero exit fails
+  ---
+  duration_ms: 0.571763
+  type: 'test'
+  ...
+# Subtest: missing dependency blocks without spawning
+ok 3 - missing dependency blocks without spawning
+  ---
+  duration_ms: 0.239252
+  type: 'test'
+  ...
+# Subtest: spawn errors and signals block
+ok 4 - spawn errors and signals block
+  ---
+  duration_ms: 0.902432
+  type: 'test'
+  ...
+# Subtest: provider keys cleared and output omitted
+ok 5 - provider keys cleared and output omitted
+  ---
+  duration_ms: 0.716793
+  type: 'test'
+  ...
+# Subtest: manifest checksum matches and cannot overwrite
+ok 6 - manifest checksum matches and cannot overwrite
+  ---
+  duration_ms: 3.038978
+  type: 'test'
+  ...
+# Subtest: full gate includes targeted tests and build checks
+ok 7 - full gate includes targeted tests and build checks
+  ---
+  duration_ms: 0.328756
+  type: 'test'
+  ...
+# Subtest: support archive allowlists fields and excludes arbitrary files
+ok 8 - support archive allowlists fields and excludes arbitrary files
+  ---
+  duration_ms: 3.4709
+  type: 'test'
+  ...
+# Subtest: archive rejects traversal and tampered evidence
+ok 9 - archive rejects traversal and tampered evidence
+  ---
+  duration_ms: 1.37809
+  type: 'test'
+  ...
+# Subtest: archive rejects mismatched session identity even with valid checksum
+ok 10 - archive rejects mismatched session identity even with valid checksum
+  ---
+  duration_ms: 2.245791
+  type: 'test'
+  ...
+# Subtest: malformed JSON returns 400
+ok 11 - malformed JSON returns 400
+  ---
+  duration_ms: 5.836562
+  type: 'test'
+  ...
+# Subtest: missing fields returns 400
+ok 12 - missing fields returns 400
+  ---
+  duration_ms: 0.444181
+  type: 'test'
+  ...
+# Subtest: valid request without key returns safe 503
+ok 13 - valid request without key returns safe 503
+  ---
+  duration_ms: 0.62233
+  type: 'test'
+  ...
+# Subtest: mock provider valid response returns structured plan
+ok 14 - mock provider valid response returns structured plan
+  ---
+  duration_ms: 15.324776
+  type: 'test'
+  ...
+# Subtest: mock provider malformed output returns 502
+ok 15 - mock provider malformed output returns 502
+  ---
+  duration_ms: 14.987486
+  type: 'test'
+  ...
+# Subtest: mock provider wrong schema returns 502
+ok 16 - mock provider wrong schema returns 502
+  ---
+  duration_ms: 10.840596
+  type: 'test'
+  ...
+# Subtest: provider exception does not leak secret
+ok 17 - provider exception does not leak secret
+  ---
+  duration_ms: 10.888108
+  type: 'test'
+  ...
+# Subtest: blank input rejected before provider
+ok 18 - blank input rejected before provider
+  ---
+  duration_ms: 11.395037
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 528.761984

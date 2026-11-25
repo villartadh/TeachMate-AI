@@ -1,0 +1,160 @@
+TAP version 13
+# Subtest: exit zero passes
+ok 1 - exit zero passes
+  ---
+  duration_ms: 1.455997
+  type: 'test'
+  ...
+# Subtest: nonzero exit fails
+ok 2 - nonzero exit fails
+  ---
+  duration_ms: 0.389781
+  type: 'test'
+  ...
+# Subtest: missing dependency blocks without spawning
+ok 3 - missing dependency blocks without spawning
+  ---
+  duration_ms: 0.225795
+  type: 'test'
+  ...
+# Subtest: spawn errors and signals block
+ok 4 - spawn errors and signals block
+  ---
+  duration_ms: 0.676829
+  type: 'test'
+  ...
+# Subtest: provider keys cleared and output omitted
+ok 5 - provider keys cleared and output omitted
+  ---
+  duration_ms: 1.474649
+  type: 'test'
+  ...
+# Subtest: manifest checksum matches and cannot overwrite
+ok 6 - manifest checksum matches and cannot overwrite
+  ---
+  duration_ms: 2.197865
+  type: 'test'
+  ...
+# Subtest: full gate includes targeted tests and build checks
+ok 7 - full gate includes targeted tests and build checks
+  ---
+  duration_ms: 0.246008
+  type: 'test'
+  ...
+# Subtest: support archive allowlists fields and excludes arbitrary files
+ok 8 - support archive allowlists fields and excludes arbitrary files
+  ---
+  duration_ms: 2.700665
+  type: 'test'
+  ...
+# Subtest: archive rejects traversal and tampered evidence
+ok 9 - archive rejects traversal and tampered evidence
+  ---
+  duration_ms: 1.031498
+  type: 'test'
+  ...
+# Subtest: archive rejects mismatched session identity even with valid checksum
+ok 10 - archive rejects mismatched session identity even with valid checksum
+  ---
+  duration_ms: 2.014732
+  type: 'test'
+  ...
+# Subtest: monitor reports pass without claiming release readiness
+ok 11 - monitor reports pass without claiming release readiness
+  ---
+  duration_ms: 0.467557
+  type: 'test'
+  ...
+# Subtest: monitor rejects incomplete and duplicate results
+ok 12 - monitor rejects incomplete and duplicate results
+  ---
+  duration_ms: 0.120747
+  type: 'test'
+  ...
+# Subtest: monitor rejects inconsistent exit code
+ok 13 - monitor rejects inconsistent exit code
+  ---
+  duration_ms: 0.08339
+  type: 'test'
+  ...
+# Subtest: monitor distinguishes blocked and failed gates
+ok 14 - monitor distinguishes blocked and failed gates
+  ---
+  duration_ms: 0.092322
+  type: 'test'
+  ...
+# Subtest: structured events are ordered and omit raw metadata
+ok 15 - structured events are ordered and omit raw metadata
+  ---
+  duration_ms: 1.15672
+  type: 'test'
+  ...
+# Subtest: structured events preserve blocked and failed outcomes
+ok 16 - structured events preserve blocked and failed outcomes
+  ---
+  duration_ms: 0.596823
+  type: 'test'
+  ...
+# Subtest: structured events reject malformed duration and identity
+ok 17 - structured events reject malformed duration and identity
+  ---
+  duration_ms: 0.252395
+  type: 'test'
+  ...
+# Subtest: malformed JSON returns 400
+ok 18 - malformed JSON returns 400
+  ---
+  duration_ms: 6.398273
+  type: 'test'
+  ...
+# Subtest: missing fields returns 400
+ok 19 - missing fields returns 400
+  ---
+  duration_ms: 0.541512
+  type: 'test'
+  ...
+# Subtest: valid request without key returns safe 503
+ok 20 - valid request without key returns safe 503
+  ---
+  duration_ms: 0.774746
+  type: 'test'
+  ...
+# Subtest: mock provider valid response returns structured plan
+ok 21 - mock provider valid response returns structured plan
+  ---
+  duration_ms: 16.458993
+  type: 'test'
+  ...
+# Subtest: mock provider malformed output returns 502
+ok 22 - mock provider malformed output returns 502
+  ---
+  duration_ms: 19.880595
+  type: 'test'
+  ...
+# Subtest: mock provider wrong schema returns 502
+ok 23 - mock provider wrong schema returns 502
+  ---
+  duration_ms: 14.181477
+  type: 'test'
+  ...
+# Subtest: provider exception does not leak secret
+ok 24 - provider exception does not leak secret
+  ---
+  duration_ms: 15.052039
+  type: 'test'
+  ...
+# Subtest: blank input rejected before provider
+ok 25 - blank input rejected before provider
+  ---
+  duration_ms: 14.13226
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 573.685163

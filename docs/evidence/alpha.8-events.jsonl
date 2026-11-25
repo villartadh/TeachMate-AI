@@ -1,0 +1,7 @@
+{"schemaVersion":1,"sessionId":"dcedd56f-fd3c-4b67-bc3d-de2927c8dacf","version":"0.1.0-alpha.8","sequence":0,"type":"gate.started","mode":"full"}
+{"schemaVersion":1,"sessionId":"dcedd56f-fd3c-4b67-bc3d-de2927c8dacf","version":"0.1.0-alpha.8","sequence":1,"type":"step.finished","name":"api-regression","status":"PASS","durationMs":342}
+{"schemaVersion":1,"sessionId":"dcedd56f-fd3c-4b67-bc3d-de2927c8dacf","version":"0.1.0-alpha.8","sequence":2,"type":"step.finished","name":"ldc-regression","status":"PASS","durationMs":100}
+{"schemaVersion":1,"sessionId":"dcedd56f-fd3c-4b67-bc3d-de2927c8dacf","version":"0.1.0-alpha.8","sequence":3,"type":"step.finished","name":"typecheck","status":"BLOCKED","durationMs":0}
+{"schemaVersion":1,"sessionId":"dcedd56f-fd3c-4b67-bc3d-de2927c8dacf","version":"0.1.0-alpha.8","sequence":4,"type":"step.finished","name":"lint","status":"BLOCKED","durationMs":0}
+{"schemaVersion":1,"sessionId":"dcedd56f-fd3c-4b67-bc3d-de2927c8dacf","version":"0.1.0-alpha.8","sequence":5,"type":"step.finished","name":"build","status":"BLOCKED","durationMs":0}
+{"schemaVersion":1,"sessionId":"dcedd56f-fd3c-4b67-bc3d-de2927c8dacf","version":"0.1.0-alpha.8","sequence":6,"type":"gate.finished","status":"BLOCKED"}

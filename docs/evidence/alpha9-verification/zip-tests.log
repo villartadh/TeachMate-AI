@@ -1,0 +1,8 @@
+test_allowlist_and_checksum (__main__.SupportZipTests.test_allowlist_and_checksum) ... ok
+test_no_overwrite (__main__.SupportZipTests.test_no_overwrite) ... ok
+test_tamper_and_traversal (__main__.SupportZipTests.test_tamper_and_traversal) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 4.131s
+
+OK

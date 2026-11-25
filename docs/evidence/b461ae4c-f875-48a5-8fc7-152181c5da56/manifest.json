@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "sessionId": "b461ae4c-f875-48a5-8fc7-152181c5da56",
+  "project": "TeachMate AI",
+  "version": "0.1.0-alpha.9",
+  "mode": "full",
+  "createdAt": "2026-11-25T20:13:25.890Z",
+  "results": [
+    {
+      "name": "api-regression",
+      "status": "PASS",
+      "exitCode": 0,
+      "durationMs": 492
+    },
+    {
+      "name": "ldc-regression",
+      "status": "PASS",
+      "exitCode": 0,
+      "durationMs": 125
+    },
+    {
+      "name": "typecheck",
+      "status": "BLOCKED",
+      "exitCode": null,
+      "durationMs": 0
+    },
+    {
+      "name": "lint",
+      "status": "BLOCKED",
+      "exitCode": null,
+      "durationMs": 0
+    },
+    {
+      "name": "build",
+      "status": "BLOCKED",
+      "exitCode": null,
+      "durationMs": 0
+    }
+  ],
+  "manualAcceptance": "NOT_RUN",
+  "liveProvider": "NOT_RUN"
+}
