@@ -1,0 +1,2 @@
+# Dependency preflight — development branch
+Local isolated Node execution: node --test preflight.test.cjs — 3 passed, 0 failed. node preflight.cjs — Node 22 PASS, npm PASS, registry DNS BLOCKED; aggregate BLOCKED. The tested files were staged together in an isolated directory. Repository-wide tests and Windows execution NOT RUN. No HTTPS/install/runtime verification or release promotion. Next: run node ldc/preflight.cjs and node --test ldc/preflight.test.cjs from checkout, then follow DEPENDENCY_RECOVERY.md in a network-enabled environment. No dependency changes.
